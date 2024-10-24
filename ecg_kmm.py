@@ -1,3 +1,11 @@
+# Training Data Confusion Matrix:
+# [[9792    0]
+#  [2791 1401]]
+# Training Data Accuracy Score: 0.8004147597254004
+# Validation Data Confusion Matrix:
+# [[1749    0]
+#  [ 488  259]]
+# Validation Data Accuracy Score: 0.8044871794871795
 import numpy as np
 import torch.nn as nn
 import torch.optim as optim
