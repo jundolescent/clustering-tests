@@ -1,3 +1,4 @@
+# GaussianMixture
 # Training Data Confusion Matrix:
 # [[9792    0]
 #  [2791 1401]]
@@ -6,6 +7,17 @@
 # [[1749    0]
 #  [ 488  259]]
 # Validation Data Accuracy Score: 0.8044871794871795
+
+# KMeas
+# Training Data Confusion Matrix:
+# [[   0 9790]
+#  [2085 2109]]
+# Training Data Accuracy Score: 0.15081521739130435
+# Validation Data Confusion Matrix:
+# [[   0 1750]
+#  [ 377  369]]
+# Validation Data Accuracy Score: 0.14783653846153846
+
 import numpy as np
 import torch.nn as nn
 import torch.optim as optim
